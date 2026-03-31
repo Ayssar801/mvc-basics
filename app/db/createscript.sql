@@ -4,7 +4,7 @@
 -- ************************************************************
 -- Versie       Datum           Auteur              Omschrijving
 -- ******       *****           ******              ************
--- 01           10-02-2026      Ayssar Akoudad    Smartphones
+-- 01           10-02-2026      Hussein Kadhim    Smartphones
 -- ************************************************************
 
 -- Verwijder database MVC_Basics_2509AB
@@ -22,7 +22,7 @@ USE `MVC_Basics_2509AB`;
 -- ************************************************************
 -- Versie       Datum           Auteur              Omschrijving
 -- ******       *****           ******              ************
--- 01           10-02-2026      Ayssar Akoudad    Tabel Smartphones
+-- 01           10-02-2026      Hussein Kadhim    Tabel Smartphones
 -- ************************************************************
 
 -- Onderstaande velden toevoegen aan de tabel Smartphones
@@ -54,7 +54,7 @@ CREATE TABLE Smartphones
 -- ************************************************************
 -- Versie       Datum           Auteur              Omschrijving
 -- ******       *****           ******              ************
--- 01           10-02-2026      Ayssar Akoudad    Vulling Smartphones
+-- 01           10-02-2026      Hussein Kadhim    Vulling Smartphones
 -- ************************************************************
 
 INSERT INTO Smartphones
@@ -85,7 +85,7 @@ VALUES
 -- ************************************************************
 -- Versie       Datum           Auteur              Omschrijving
 -- ******       *****           ******              ************
--- 01           10-02-2026      Ayssar Akoudad    Tabel Sneakers
+-- 01           10-02-2026      Hussein Kadhim    Tabel Sneakers
 -- ************************************************************
 
 -- Onderstaande velden toevoegen aan de tabel Sneakers
@@ -115,7 +115,7 @@ CREATE TABLE Sneakers
 -- ************************************************************
 -- Versie       Datum           Auteur              Omschrijving
 -- ******       *****           ******              ************
--- 01           10-02-2026      Ayssar Akoudad    Vulling Sneakers
+-- 01           10-02-2026      Hussein Kadhim    Vulling Sneakers
 -- ************************************************************
 
 INSERT INTO Sneakers
@@ -144,7 +144,7 @@ VALUES
 -- ************************************************************
 -- Versie       Datum           Auteur              Omschrijving
 -- ******       *****           ******              ************
--- 01           11-02-2026      Ayssar Akoudad    Tabel Horloges
+-- 01           11-02-2026      Hussein Kadhim    Tabel Horloges
 -- ************************************************************
 
 -- Onderstaande velden toevoegen aan de tabel Horloges
@@ -177,7 +177,7 @@ CREATE TABLE Horloges
 -- ************************************************************
 -- Versie       Datum           Auteur              Omschrijving
 -- ******       *****           ******              ************
--- 01           11-02-2026      Ayssar Akoudad    Vulling Horloges
+-- 01           11-02-2026      Hussein Kadhim    Vulling Horloges
 -- ************************************************************
 
 INSERT INTO Horloges
@@ -208,7 +208,7 @@ VALUES
 -- ************************************************************
 -- Versie       Datum           Auteur               Omschrijving
 -- ****** ***** ****** ************
--- 01           12-02-2026       Ayssar Akoudad     Tabel Zangeressen
+-- 01           12-02-2026       Hussein Kadhim     Tabel Zangeressen
 -- ************************************************************
 
 -- Onderstaande velden toevoegen aan de tabel Zangeressen
@@ -234,7 +234,7 @@ CREATE TABLE zangeressen
 -- ************************************************************
 -- Versie       Datum           Auteur               Omschrijving
 -- ****** ***** ****** ************
--- 01           12-02-2026       Ayssar Akoudad     Vulling Zangeressen
+-- 01           12-02-2026       Hussein Kadhim     Vulling Zangeressen
 -- ************************************************************
 
 INSERT INTO Zangeressen
