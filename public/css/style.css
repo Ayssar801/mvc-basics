@@ -1,0 +1,137 @@
+:root {
+    --primary-color: #4f46e5; /* Indigo 600 */
+    --primary-hover: #4338ca;
+    --secondary-color: #64748b; /* Slate 500 */
+    --secondary-hover: #475569;
+    --accent-color: #10b981; /* Emerald 500 */
+    --bg-dark: #0f172a; /* Slate 900 / Midnight Abyss */
+    --bg-light: #f8fafc; /* Soft Slate Gray */
+    --text-dark: #1e293b;
+    --text-light: #ffffff;
+    --text-muted: #94a3b8;
+}
+
+/* Base styling */
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+}
+
+/* Wrapper for sticky footer */
+.wrapper {
+    flex: 1 0 auto;
+    margin-bottom: 4rem; /* Substantial space before footer */
+}
+
+/* Navbar refinement - sophisticated midnight with emerald accent */
+.navbar {
+    background: linear-gradient(135deg, var(--bg-dark) 0%, #1e293b 100%) !important;
+    border-bottom: 3px solid var(--accent-color);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    padding: 1.1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--text-light) !important;
+}
+
+.navbar-brand i {
+    color: var(--accent-color);
+}
+
+.nav-link {
+    color: var(--text-light) !important;
+    opacity: 0.8;
+    font-weight: 500;
+    padding: 0.5rem 1.25rem !important;
+}
+
+.nav-link:hover {
+    opacity: 1;
+    color: var(--accent-color) !important;
+}
+
+/* Footer refinement - deep midnight gradient */
+footer {
+    flex-shrink: 0;
+    background: linear-gradient(to bottom, #0f172a 0%, #020617 100%);
+    color: var(--text-light);
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding: 3.5rem 0;
+    font-size: 0.95rem;
+}
+
+/* Buttons - less "modern/bubble" look, more solid industrial feel */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.85rem;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
+}
+
+.btn-outline-secondary {
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.85rem;
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+/* Card aesthetics - simpler, more standard */
+.homepage-card {
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    background: white;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.homepage-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.homepage-card .card-title {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+/* Table refinement */
+.table {
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.table thead th {
+    background-color: #eee;
+    color: #444;
+    border-bottom: 2px solid #ccc;
+    padding: 1rem;
+}
